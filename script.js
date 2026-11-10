@@ -42,10 +42,10 @@ const questions = [
     title: "Hình ảnh nào thu hút bạn nhất?",
     hint: "Chọn hình bạn thích ngay từ cái nhìn đầu tiên.",
     options: [
-      { text: "Bữa ăn ấm cúng", image: "images/phovietnam.jpg", score: { pho: 2 } },
-      { text: "Bữa tiệc vui vẻ", image: "images/pizza.jpg", score: { pizza: 2 } },
-      { text: "Ẩm thực tinh tế", image: "images/sushi.jpg", score: { sushi: 2 } },
-      { text: "Đồ ăn nhanh hấp dẫn", image: "images/Hamburger.jpg", score: { burger: 2 } }
+      { text: "Bữa ăn ấm cúng", image: "phovietnam.jpg", score: { pho: 2 } },
+      { text: "Bữa tiệc vui vẻ", image: "pizza.jpg", score: { pizza: 2 } },
+      { text: "Ẩm thực tinh tế", image: "sushi.jpg", score: { sushi: 2 } },
+      { text: "Đồ ăn nhanh hấp dẫn", image: "Hamburger.jpg", score: { burger: 2 } }
     ]
   },
   {
@@ -79,10 +79,10 @@ const questions = [
     title: "Nếu được chọn một chuyến đi, bạn thích nơi nào?",
     hint: "Chọn phong cảnh bạn muốn đặt chân đến.",
     options: [
-      { text: "Thị trấn yên bình", image: "images/Yenbinh.jpg", score: { pho: 2 } },
-      { text: "Thành phố sôi động", image: "images/Thanhpho.jpg", score: { pizza: 2 } },
-      { text: "Biển xanh trong lành", image: "images/bien.jpg", score: { sushi: 2 } },
-      { text: "Núi rừng phiêu lưu", image: "images/rungnui.jpg", score: { burger: 2 } }
+      { text: "Thị trấn yên bình", image: "Yenbinh.jpg", score: { pho: 2 } },
+      { text: "Thành phố sôi động", image: "Thanhpho.jpg", score: { pizza: 2 } },
+      { text: "Biển xanh trong lành", image: "bien.jpg", score: { sushi: 2 } },
+      { text: "Núi rừng phiêu lưu", image: "rungnui.jpg", score: { burger: 2 } }
     ]
   },
   {
@@ -115,10 +115,10 @@ const questions = [
     title: "Bạn thích lựa chọn món ăn nào ngay lúc này?",
     hint: "Hãy chọn món khiến bạn thấy hấp dẫn nhất!",
     options: [
-      { text: "Phở Việt Nam", image: "images/phovietnam.jpg", score: { pho: 3 } },
-      { text: "Pizza", image: "images/pizza.jpg", score: { pizza: 3 } },
-      { text: "Sushi Nhật Bản", image: "images/sushi.jpg", score: { sushi: 3 } },
-      { text: "Hamburger", image: "images/Hamburger.jpg", score: { burger: 3 } }
+      { text: "Phở Việt Nam", image: "phovietnam.jpg", score: { pho: 3 } },
+      { text: "Pizza", image: "pizza.jpg", score: { pizza: 3 } },
+      { text: "Sushi Nhật Bản", image: "sushi.jpg", score: { sushi: 3 } },
+      { text: "Hamburger", image: "Hamburger.jpg", score: { burger: 3 } }
     ]
   },
   {
@@ -152,10 +152,10 @@ const questions = [
     title: "Không gian làm việc/học tập nào truyền nhiều cảm hứng cho bạn nhất?",
     hint: "Chọn góc không gian mang lại cho bạn cảm giác tuyệt vời nhất.",
     options: [
-      { text: "Góc phòng ấm cúng mộc mạc", image: "images/gocphong.jpg", score: { pho: 2 } },
-      { text: "Quán cà phê sôi động náo nhiệt", image: "images/quancafe.jpg", score: { pizza: 2 } },
-      { text: "Bàn làm việc tối giản gọn gàng", image: "images/banlamviec.jpg", score: { sushi: 2 } },
-      { text: "Văn phòng sáng tạo hiện đại", image: "images/vanphong.jpg", score: { burger: 2 } }
+      { text: "Góc phòng ấm cúng mộc mạc", image: "gocphong.jpg", score: { pho: 2 } },
+      { text: "Quán cà phê sôi động náo nhiệt", image: "quancafe.jpg", score: { pizza: 2 } },
+      { text: "Bàn làm việc tối giản gọn gàng", image: "banlamviec.jpg", score: { sushi: 2 } },
+      { text: "Văn phòng sáng tạo hiện đại", image: "vanphong.jpg", score: { burger: 2 } }
     ]
   },
   {
@@ -176,10 +176,10 @@ const questions = [
     title: "Cuối cùng, món đồ uống lý tưởng hoàn hảo đi kèm với bạn là gì?",
     hint: "Đây là câu hỏi quyết định bài trắc nghiệm!",
     options: [
-      { text: "Trà ấm thanh thanh", image: "images/tra.jpg", score: { pho: 3 } },
-      { text: "Nước ngọt có ga sảng khoái", image: "images/nuocngot.jpg", score: { pizza: 3 } },
-      { text: "Trà xanh Matcha chuẩn gu", image: "images/matcha.jpg", score: { sushi: 3 } },
-      { text: "Nước ép tươi năng lượng", image: "images/nuocep.jpg", score: { burger: 3 } }
+      { text: "Trà ấm thanh thanh", image: "tra.jpg", score: { pho: 3 } },
+      { text: "Nước ngọt có ga sảng khoái", image: "nuocngot.jpg", score: { pizza: 3 } },
+      { text: "Trà xanh Matcha chuẩn gu", image: "matcha.jpg", score: { sushi: 3 } },
+      { text: "Nước ép tươi năng lượng", image: "nuocep.jpg", score: { burger: 3 } }
     ]
   }
 ];
@@ -188,7 +188,7 @@ const results = {
   pho: {
     title: "PHỞ - TÂM HỒN ẤM ÁP & ĐÁNG TIN CẬY",
     subtitle: "Hương vị truyền thống sâu lắng, gần gũi và đầy gắn kết",
-    image: "images/phovietnam.jpg",
+    image: "phovietnam.jpg",
     description: "Bạn giống như một bát Phở truyền thống nóng hổi: dung dị, đậm đà, mang lại cảm giác bình yên và sự tin tưởng tuyệt đối cho mọi người xung quanh.",
     strengths: "Chu đáo, lắng nghe tốt, kiên nhẫn, điềm tĩnh trước áp lực và luôn đặt tình cảm gia đình, bạn bè lên hàng đầu.",
     advice: "Đôi khi hãy cởi mở hơn với những thay đổi mới lạ và đừng ngần ngại bước ra khỏi vùng an toàn để bứt phá bản thân!",
@@ -197,7 +197,7 @@ const results = {
   pizza: {
     title: "PIZZA - NGƯỜI KẾT NỐI & LAN TỎA NĂNG LƯỢNG",
     subtitle: "Món ăn của sự chia sẻ, ngập tràn sắc màu và tiếng cười",
-    image: "images/pizza.jpg",
+    image: "pizza.jpg",
     description: "Bạn là chiếc Pizza ngập tràn topping rực rỡ: luôn sôi nổi, vui vẻ, sáng tạo và là chất keo kết nối mọi thành viên trong mỗi cuộc gặp gỡ.",
     strengths: "Hòa đồng, giao tiếp giỏi, lạc quan, khả năng tạo niềm vui và truyền cảm hứng tích cực tới đám đông.",
     advice: "Dành chút thời gian tĩnh lặng cho riêng mình để nạp lại năng lượng và lắng nghe sâu hơn những mong muốn cá nhân.",
@@ -206,7 +206,7 @@ const results = {
   sushi: {
     title: "SUSHI - TÂM HỒN TINH TẾ & CHỈN CHU",
     subtitle: "Đỉnh cao của sự tỉ mỉ, gu thẩm mỹ cao và tư duy sâu sắc",
-    image: "images/sushi.jpg",
+    image: "sushi.jpg",
     description: "Bạn mang phong thái của Sushi Nhật Bản: cầu toàn, chú trọng chất lượng, tinh tế trong cách ứng xử và luôn giữ cho mình một cá tính độc đáo.",
     strengths: "Quan sát sắc bén, tư duy logic, thẩm mỹ cao, cẩn trọng trong công việc và giữ uy tín cá nhân vượt trội.",
     advice: "Thả lỏng bản thân một chút, đừng quá áp đặt sự hoàn hảo lên mọi việc để tận hưởng cuộc sống nhẹ nhàng hơn.",
@@ -215,7 +215,7 @@ const results = {
   burger: {
     title: "HAMBURGER - NGƯỜI NĂNG ĐỘNG & BỨT PHÁ",
     subtitle: "Hiện đại, bứt phá, tốc độ và tràn đầy quyết đoán",
-    image: "images/Hamburger.jpg",
+    image: "Hamburger.jpg",
     description: "Bạn là chiếc Hamburger đầy năng lượng: cá tính, hiện đại, luôn sẵn sàng xông pha và đưa ra những quyết định nhanh chóng, táo bạo.",
     strengths: "Quyết đoán, chủ động, dám nghĩ dám làm, linh hoạt thích ứng và không ngại thử thách giới hạn mới.",
     advice: "Hãy kết hợp sự tốc độ với một chút kiên nhẫn quan sát để đạt được kết quả bền vững và trọn vẹn nhất.",
